@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+ font-family: "Balsamiq Sans", sans-serif;
+ font-family: "Balsamiq Sans", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+}
+.container {
+ display: flex;
+ height: 1200px;
+ box-sizing: border-box;
+}
+/* left section  */
+
+.left{
+/* border: 2px solid red; */
+width: 33%;
+height: 629px;
+margin-top: 23px;
+margin-left: 33px;
+}
+.left .top-box{
+ color: #0f0d0d;
+  margin: 20px;
+}
+.box{
+ /* border: 2px solid rgb(25, 14, 183); */
+ padding: 23px;
+ position: relative;
+ top: 12px;
+ height: 409px;
+}
+.service{
+ /* border: 2px solid rgb(135, 32, 32); */
+ width: 416px;
+  height: 381px;
+ height: 314px;
+ position: absolute;
+ margin-left: 20px;
+
+ 
+ 
+}
+.box-1{
+ display: flex;
+ 
+ margin: 19px 7px 4px 4px;
+}
+#box-left-side{
+position: sticky;
+top: 160px;
+}
+.card{
+ /* border: 2px solid green; */
+ text-align: center;
+  width: 194px;
+  height: 116px;
+ margin-left: 26px;
+ position: static;
+ top: 23px;
+ box-shadow:
+6.7px 6.7px 5.3px rgba(0, 0, 0, 0.057),
+22.3px 22.3px 17.9px rgba(0, 0, 0, 0.083),
+100px 100px 80px rgba(0, 0, 0, 0.14)
+;
+}
+.card img{
+ /* border: 2px solid yellow; */
+ height: 71px;
+ border-radius: 4px;
+ border-radius: 8px;
+}
+.card:hover{
+ cursor: pointer;
+ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ border-bottom: 3px solid green;
+ transition: 2ms;
+}
+.card::after{
+ content: '';
+ position: absolute;
+ width: 100%;
+ height: 0.175rem;
+ left: 0;
+ bottom: 0;
+ background: #ea0e4b;
+ cursor: pointer;
+}
+.card::after {
+ border: 3px solid red;
+ transform: scale(0,1);
+ transition: transform 0.3s ease;
+}
+.card:hover{
+ transform: scale(1,1);
+}
+.card h6{
+ text-align: center;
+font-size: 15px;
+}
+.box label{
+font-size: 24px;
+}
+/* mid section  */
+.mid {
+ /* border: 2px solid black; */
+ width: 67%;
+ box-sizing: border-box;
+}
+.mid video{
+ width: 985px;
+height: 606px;
+ margin-left: 10px;
+ border-radius: 27px;
+ margin-top: 20px;
+}
+#mid-section .left{
+ /* border: 2px solid green; */
+}
+#mid-section{
+ width: 67%;
+}
+#mid-section .right{
+ /* border: 2px solid pink; */
+}
+.top-box h1{
+font-size: 37px;
+}
+
+
+/* ********************************************************************************** */
+.box-2{
+ display: flex;
+ height: 300vh;
+ /* border: 2px solid green; */
+
+}
+.left-box{
+ /* border: 2px solid black; */
+ width: fit-content;
+ height: fit-content;
+ width: 49vw;
+ height: 100%;
+ /* border: 3px solid red; */
+ /* display: in; */
+}
+.right-box{
+ width: 22vw;
+ height: 80vh;
+ /* border: 3px solid rgb(239, 243, 5); */
+}
+section{
+height: 380vh;
+/* border: 3px solid rebeccapurple; */
+}
+
+
+/* card section of main  */
+/* rating section start  */
+/* body{
+background: #222225;
+color: white;
+margin: 100px auto;
+} */
+
+.rating {
+display: flex;
+flex-direction: row-reverse;
+margin-left: -290px;
+justify-content: center;
+}
+
+
+.rating > input{ display:none;}
+
+.rating > label {
+position: relative;
+width: 1em;
+font-size: 1.3vw;
+color: #972aeb;
+cursor: pointer;
+float: left;
+}
+
+.rating > label::before{
+content: "\2605";
+position: absolute;
+opacity: 0;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before {
+opacity: 1 !important;
+}
+
+.rating > input:checked ~ label:before{
+opacity:1;
+}
+
+.rating:hover > input:checked ~ label:before{ opacity: 0.4; }
+
+/* Rating section end  */

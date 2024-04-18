@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.contect-section{
+    float: left;
+    width: 55%;
+
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img {
+    width: 100%;
+    height: auto;
+    /* border-radius: 10px; */
+}
+.contect-section .title{
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.contect-section .content h1{
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 19px;
+
+}
+.contect-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height:1.5;
+}
+.contect-section .content .button{
+    margin-top: 30px;
+
+}
+.contect-section .content .button a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+
+}
+.contect-section .content .button a:hover{
+    background-color: #a52a2a;
+    color: #fff;
+
+}
+.contect-section .social {
+    margin:40px  40px;
+}
+.contect-section .social i:hover {
+    color: #3d3d3d;
+}
+@media screen and (max-width: 768px){
+    .container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+.contect-section{
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+.image-section{
+    float: none;
+    width: 100%;
+    /* display: block;
+    margin: auto;*/
+} 
+.image-section img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.contect-section .title {
+    text-align: center;
+    font-size: 19px;
+
+}
+.contect-section .content .button{
+    text-align:center;
+}
+.contect-section .content .button a{
+    padding: 9px 30px;
+
+}
+.contect-section .social{
+    padding-left: 162px;
+}
+
+
+}
+/* **************************** */
+.social {
+position: relative;
+display: flex;
+/* size: 10px; */
+}
+.social {
+list-style: none;
+margin-right: 15px;
+
+}
+.social a{
+text-decoration: none;
+margin-right: 9px;
+}
+.social a img{
+/* filter: invert(1); */
+}

@@ -1,0 +1,204 @@
+footer{
+
+    margin-top: 5rem;
+    width: 100%;
+    position: absolute;
+  
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+  
+    font-size: 13px;
+    line-height: 20px;
+  }
+  
+  .footer_row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: space-between;
+  }
+  
+  .footer_company_info{
+    flex-basis: 25%;
+    padding: 10px;
+    margin-right: 0.1rem;
+  }
+  
+  .footer_col{
+   
+    padding: 10px;
+   
+  }
+  
+  .companyLogo{
+    
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    gap: 1.5rem;
+  }
+  
+  .footer_logo_icon{
+    height: 50px;
+    width: 50px;
+    
+  }
+  
+  .footer_tag_line{
+    
+    font-style: oblique;
+    margin-top: 1.3rem;
+    margin-left: 2.2rem; 
+  }
+  
+  .footer_col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    position: relative;
+  }
+  
+  .email_id{
+    width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+  }
+  
+  .footer_col ul li{
+    list-style: none;
+    margin-bottom: 12px;
+  }
+  
+  .footer_col ul li a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer_form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+  }
+  
+  .footer_form .fa-envelope{
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .footer_form input{
+    width: 100%;
+    background: transparent;
+    color: #CCC;
+    border: 0;
+    outline: none;
+  }
+  
+  .footer_form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .footer_form button .fa-solid{
+    font-size: 16px;
+    color: #ccc;
+  }
+  .social_icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social_icons .fa-brands:hover{
+    background-color: #FFD700;
+    scale: 1.2;
+  }
+  
+  hr{
+    width: 90%;
+    margin: 20px auto;
+    border-bottom: 1px solid #fff;
+  }
+  
+  
+  .copywrite{
+    text-align: center;
+  }
+  
+  .footer_col_underline{
+    width: 100%;
+    background-color: #767676;
+    height: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .footer_col_underline span{
+    width: 20px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 1.5s linear infinite;
+  }
+  
+  @keyframes moving {
+    0% {
+      left: -20px;
+    }
+  
+    100%{
+      left: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 1300px)
+  {
+    .footer_company_info{
+      flex-basis: 100%;
+    }
+  
+    .footer_logo_icon{
+      height: 60px;
+      width: 60px;
+      
+    }
+   
+  }
+  
+  .footer_col, .footer_col h3, .footer_col p, .footer_col a .footer_col h4, .footer_company_info p,.companyLogo h2, .copywrite{
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+  }
+  
+  .footer_col:hover, .footer_company_info:hover,.copywrite:hover {
+    transform: scale(1.1); /* Scale up the column item on hover */
+  }
+  
+  
+  
+  .footer_col h3:hover, .footer_col h4:hover, .footer_col p:hover, .footer_col a:hover, .companyLogo h2:hover, .footer_company_info p:hover, .copywrite:hover{
+    color: gold; /* Change color on hover */
+    
+  }
+  
